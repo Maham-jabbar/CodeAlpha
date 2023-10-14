@@ -1,0 +1,297 @@
+
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+   
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .fas {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+   
+}
+
+
+.home {
+    background-image: url("images/bg-img.png");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 50px;
+    
+}
+
+.home .content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    border-radius: 5px;
+
+}
+
+.home h3 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 26px;
+}
+
+.home .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* About Us */
+.aboutus {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.a-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.aboutus p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.aboutus .btn {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ /* Our Services */
+#OurServices {
+    padding: 50px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 5;
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.box img {
+    
+    max-width: 200px;
+    margin: 0 auto 10px;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+}
+.box:hover{
+    outline: black;
+    outline-offset: 0rem;
+}
+
+.box .f-btn {
+  margin-bottom: 0px;
+  padding: 10px 10px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+} 
+/* Job Offers Section Styles - Similar to Our Services */
+
+/* Contact Us */
+.ContactUs {
+    padding: 50px;
+}
+
+.container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button[type="submit"] {
+    padding: 20px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    /* border-radius: 20px; */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.contact-info {
+    font-size: 30px;
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.contact-info h3 {
+    font-size: 30px;
+}
+.contact-info p{
+    font-size: 20;
+}
+
+
+.social-icons {
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+}
+.social-icons a{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+.social-icons h3 {
+    font-size: 35px;
+}
+
+
+.icon {
+    margin: 5px;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.copyright {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
